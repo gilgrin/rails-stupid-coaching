@@ -1,0 +1,54 @@
+// Place all the styles related to the Questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+p {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  // padding-top: 10px;
+  // padding-bottom: 0px;
+}
+
+.card-question {
+  padding-left: 5px;
+  background-color: rgb(221,221,221);
+  width: 600px;
+}
+
+.question {
+  background-color: white;
+  line-height: 10px;
+  padding-left: 15px;
+  padding-top: 0px;
+  border: 1px solid white;
+}
+
+.card-answer {
+  background-color: rgb(221,221,221);
+  padding-left: 5px;
+  width: 600px;
+}
+
+.answer {
+  background: rgb(255,254,225);
+  line-height: 10px;
+  padding-left: 15px;
+  padding-top: 0px;
+  // font-weight: bold;
+  border: 1px solid white;
+}
+
+.ask-new {
+  margin-top: 20px;
+}
+
+.form-control {
+  width: 500px;
+}
